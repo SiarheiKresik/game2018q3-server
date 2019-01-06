@@ -14,6 +14,7 @@ mongoose.connect(
 );
 
 const PORT = process.env.PORT || 3000;
+console.log('express PORT:', PORT)
 
 const app = express();
 
