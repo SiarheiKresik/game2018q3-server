@@ -6,7 +6,6 @@ const mongoose = require('mongoose');
 const PlayerModel = require('./models/player');
 
 const URL = process.env.MONGOLAB_URI || 'mongodb://localhost:27017/game2018q3';
-console.log('mongo URL:', URL)
 
 mongoose.connect(
   URL,
